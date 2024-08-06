@@ -23,6 +23,11 @@ header {
   text-align: center;
   align-items: center;
   display: flex;
+  justify-content: center;
+}
+
+#about-section{
+  display: flex;
 }
 
 /* Containers */
@@ -49,7 +54,7 @@ article div {
 /* Paragraphs */
 p {
   line-height: 1.5;
-  text-align: justify;
+  /* text-align: justify;*/
 }
 
 /* Links */
@@ -70,6 +75,8 @@ img {
   width: 100%;
   max-width: 200px;
   height: auto;
+  margin:  25px;
+  
   
   
 }
@@ -78,6 +85,8 @@ img {
   border: 2px solid #003049;
   border-radius: 50%;
 }
+
+
 
 /* Footer */
 footer {
@@ -89,3 +98,10 @@ hr {
   border: 1px solid black;
 }
 
+#portfolio-section{
+  display: flex;
+  font-size: 14px;
+text-align: center;
+
+  
+}
